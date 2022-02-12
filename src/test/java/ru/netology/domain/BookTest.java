@@ -11,7 +11,7 @@ class BookTest {
     }
 
     @Test
-    public void shouldUseEquals () {
+    public void shouldUseEquals() {
         Book book1 = new Book(2, "Тревожные люди", 244, "Фредрик Бакман");
         Book book2 = new Book(2, "Тревожные люди", 244, "Фредрик Бакман");
 
