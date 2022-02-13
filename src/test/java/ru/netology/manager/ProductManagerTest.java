@@ -32,14 +32,14 @@ class ProductManagerTest {
     }
 
     @Test
-    void SearchByBookTitleNoBook() {
+    void searchByBookTitleNoBook() {
         Product[] expected = new Product[]{};
         Product[] actual = manager.searchBy("Тестирование");
         assertArrayEquals(expected, actual);
     }
 
     @Test
-    void SearchByBookTitle() {
+    void searchByBookTitle() {
         Product[] expected = new Product[]{second};
         Product[] actual = manager.searchBy("Вторая жизнь Уве");
         assertArrayEquals(expected, actual);
